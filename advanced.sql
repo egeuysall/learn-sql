@@ -32,7 +32,14 @@
 -- It groups the same first names.
 
 -- Having
-SELECT age, ROUND(AVG(gpa)) FROM students
--- Where can't be used because gpa is aggregated
-GROUP BY age
-HAVING ROUND(AVG(gpa)) >= 4 -- Now, it filters the results to be greater or equal to 4
+-- SELECT age, ROUND(AVG(gpa)) FROM students
+-- -- Where can't be used because gpa is aggregated
+-- GROUP BY age
+-- HAVING ROUND(AVG(gpa)) >= 4
+-- Now, it filters the results to be greater or equal to 4
+
+-- As statement
+-- Normally, don't use so short nicknames
+-- SELECT major AS m, ROUND(SUM(gpa)) FROM students
+-- GROUP BY m
+-- HAVING ROUND(SUM(gpa)) >= 7
