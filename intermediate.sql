@@ -1,0 +1,12 @@
+-- Order by
+-- SELECT DISTINCT(age) FROM students ORDER BY age
+-- SELECT DISTINCT first_name, major
+-- FROM students
+-- WHERE (gender = 'M' AND age > 20)
+--    OR (gpa > 3.60 AND last_name IN ('Doe', 'Smith', 'Taylor', 'Thomas'))
+-- ORDER BY first_name ASC, major ASC;
+
+-- Limit keyword
+-- SELECT DISTINCT first_name, major
+-- FROM students
+-- LIMIT 2;
